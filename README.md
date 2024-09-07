@@ -16,7 +16,7 @@ El programa está compuesto por las siguientes clases:
   
 - **PaypalPayment (Implementa PaymentMethod):** Esta clase concreta implementa el método `pay` para simular un pago usando PayPal.
 
-- **PaymentFactory (Clase abstracta):** Define un método abstracto `createPaymentMethod()` que será implementado por las fábricas concretas.
+- **PaymentFactory (Clase abstracta):** Define un método abstracto `createPaymentMethod()` que será implementado por las Clases concretas.
 
 - **CreditCardPaymentFactory (Extiende PaymentFactory):** Esta clase concreta crea una instancia de `CreditCardPayment`.
 
