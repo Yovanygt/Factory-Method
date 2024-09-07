@@ -27,8 +27,8 @@ El programa está compuesto por las siguientes clases:
 ### Funcionamiento
 
 1. El usuario selecciona un método de pago (1. Tarjeta de crédito o 2. PayPal).
-2. Dependiendo de la selección del usuario, se crea una instancia de la fábrica correspondiente.
-3. La fábrica seleccionada crea el método de pago adecuado.
+2. Dependiendo de la selección del usuario, se crea una instancia de la Clase correspondiente.
+3. La Clase seleccionada crea el método de pago adecuado.
 4. El usuario ingresa el monto a pagar, y se realiza el pago utilizando el método seleccionado.
 
 ### Diagrama del Patrón Factory Method
